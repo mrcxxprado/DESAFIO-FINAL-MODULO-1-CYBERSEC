@@ -39,30 +39,6 @@ O objetivo foi realizar o mapeamento completo da rede corporativa simulada, iden
 
 ### Diagrama de Topologia de Rede
 
-                            +---------------------+
-                            |       INTERNET      |
-                            +----------+----------+
-                                       |
-                                       |
-                            +----------v----------+
-                            |  ROTEADOR/FIREWALL  |
-                            |       (Central)     |
-                            +----------+----------+
-                                       |
-         +-----------------------------+-----------------------------+
-         |                             |                             |
-         v                             v                             v
-+--------------------------+  +--------------------------+  +--------------------------+
-|       INFRA_NET          |  |       CORP_NET           |  |       GUEST_NET          |
-|    (10.10.30.0/24)       |  |    (10.10.10.0/24)       |  |    (10.10.50.0/24)       |
-|                          |  |                          |  |                          |
-|  [FTP Server]            |  |  [Gateway/Router]        |  |  [Gateway/Router]        |
-|  [MySQL Server]          |  |  [WS_001]                |  |  [Device_01]             |
-|  [Samba Server]          |  |  [WS_002]                |  |  [Device_02]             |
-|                          |  |  [WS_003]                |  |  [Device_03]             |
-|                          |  |  [WS_004]                |  |                          |
-+--------------------------+  +--------------------------+  +--------------------------+
-
 **Nota:** Para uma versão visualmente mais elaborada, consulte a imagem do diagrama na seção de [Anexos e Evidências](#-anexos-e-evidências)
 
 
