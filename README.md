@@ -1,6 +1,24 @@
 # DESAFIO-FINAL--MODULO-1-CYBERSEC
 # Análise de Segurança de Rede Corporativa Simulada
 
+
+# Projeto Técnico: Mapeamento de Rede Corporativa (Docker)
+
+Este repositório contém o projeto técnico realizado como parte da Trilha de Formação em Cibersegurança – Módulo 1.
+
+## 📄 Conteúdo
+
+- Relatório técnico final (PDF)
+- Evidências de exploração e enumeração
+- Diagrama da rede corporativa simulada
+- Plano de ação baseado no princípio 80/20
+
+## 🛠️ Ferramentas utilizadas
+
+- Kali Linux (nmap, rustscan,)
+- Docker para ambiente simulado
+- Canva (diagrama)
+
 Este repositório contém o relatório de uma análise  de um ambiente de rede corporativo, focado na identificação de ativos, serviços expostos e potenciais vulnerabilidades. O objetivo é orientar a tomada de decisões para o reforço da segurança da informação na organização.
 
 
@@ -135,5 +153,5 @@ Para uma rápida melhoria na segurança, adotamos o princípio 80/20:
 * **Diagrama de Topologia Ilustrado:**
     * Anexo Diagrama
 
-* **Evidências
+* **+Evidências**
     * Anexos
